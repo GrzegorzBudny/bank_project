@@ -1,0 +1,55 @@
+*
+{
+	margin:0 auto;
+	padding:0 auto;
+}
+fieldset
+{
+	width:320px;
+	text-align:center;
+}
+
+p
+{
+	margin-top:20px;
+	width:320px;
+	text-align:center;
+	color:gray;
+}
+
+legend
+{
+	color:gray;
+}
+
+/* WYJATKI */
+
+input[type="text"]
+{
+	border:solid 2px gray;
+}
+#button_submit {
+width: 100px;
+height: 35px;
+background-color:red;
+} 
+.must_have
+{
+	border-bottom-color:orange;
+}
+
+.must_have_2
+{
+	color:red;
+}
+
+#forma
+{
+	width:540px;
+}
+
+#forma2
+{
+	text-align:left;
+	width:540px;
+}

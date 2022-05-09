@@ -1,0 +1,65 @@
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<link rel="Stylesheet" type="text/css" href="rejestracja.css" />
+	<meta name="author" content="Grzegorz Budny">
+	<meta name="keywords" content="KGHM, Formularz rejestracja">
+	<meta name="description" content="Formularz rejestracyjny">
+	<title>Rejestracja</title>
+</head>
+<body>
+<form action="rejestracja.php" method="post">
+<p class="must_have_2">Pola zaznaczone kolorem są wymagane</p>
+<br>
+<fieldset>
+<legend class="must_have_2">Imię</legend>
+<input type="text" name="imie" class="must_have">
+</fieldset>
+<fieldset>
+<legend class="must_have_2">Nazwisko</legend>
+<input type="text" name="nazwisko" class="must_have">
+</fieldset>
+<fieldset>
+<legend class="must_have_2">PESEL</legend>
+<input type="text" name="pesel" size="11" maxlength="11" class="must_have">
+</fieldset>
+<fieldset>
+<legend class="must_have_2">Ulica i numer domu/mieszkania</legend>
+<input type="text" name="adres" class="must_have">
+</fieldset>
+<fieldset>
+<legend class="must_have_2">Kod Pocztowy</legend>
+<input type="text" name="kod_pocztowy" size="6" maxlength="6" class="must_have">
+</fieldset>
+<fieldset>
+<legend class="must_have_2">Miejscowość</legend>
+<input type="text" name="miejscowosc" class="must_have">
+</fieldset>
+<fieldset>
+<legend class="must_have_2">Adres e-mail</legend>
+<input type="text" name="email" class="must_have">
+</fieldset>
+<fieldset>
+<legend>Telefon kontaktowy</legend>
+<input type="text" name="telefon" maxlength="9">
+</fieldset>
+<fieldset>
+<legend class="must_have_2">Login</legend>
+<input type="text" name="login" maxlength="30" class="must_have">
+</fieldset>
+<fieldset>
+<legend class="must_have_2">Haslo</legend>
+<input type="text" name="haslo" maxlength="30" class="must_have">
+</fieldset>
+
+<p class="must_have_2">
+	<input type="checkbox" name="ODO">
+	Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w formularzu dla potrzeb niezbędnych do działania banku
+</p>
+
+<p>
+	<input type="submit" value="Utwórz konto" name="button" id="button_submit">
+</p>
+</form>
+</body>
+</html>

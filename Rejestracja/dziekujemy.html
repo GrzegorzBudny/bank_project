@@ -1,0 +1,45 @@
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Grzegorz Budny">
+    <meta name="keywords" content="KGMD, rejestracja">
+    <meta name="description" content="Dzieki za rejestracje w naszym banku">
+    <title>Dzieki KGMD</title>
+<style>
+body
+{
+    background-image: url("../background.png");
+    background-color:black;
+}
+#button1
+{
+    width: 100px;
+    height: 35px;
+    background-color:red;
+} 
+.square
+{
+    width: 500px;
+    height: 350px;
+    background: RoyalBlue;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border:outset 10px blue;
+}
+</style>
+</head>
+<body>
+<div class="square" style="text-align: center">
+    <form action="index.php" method="post">
+        <br><br><br>
+        <h1>Twoje konto stworzone pomyślnie </h1>
+        <h2>Dziękujemy za wybranie naszego banku :) </h2>
+        <br><br><input type="button" id="button1" value="Logowanie" onClick="location.href='../index.php';"/>
+    </form>
+</div>
+</body>
+</html>
